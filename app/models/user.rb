@@ -9,5 +9,8 @@ class User < ApplicationRecord
     validates :occupation
     validates :birthday
   end
+
+has_many  :posts
+has_many  :comments
 end
  
