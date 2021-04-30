@@ -20,7 +20,7 @@
 ## postsテーブル
 | Column        | Type       | Options                       |
 | ------------- |----------- | ----------------------------- |
-| category      | integer    | null: false                   | #Active hash使う
+| category_id      | integer    | null: false                   | #Active hash使う
 | title         | string     | null: false                   |
 | article       | text       | null: false                   |
 | user          | references | null: false,foreign_key: true |
