@@ -9,27 +9,27 @@
 
     <%= render 'shared/error_messages', model: f.object %> 
 
-    <%# 商品名と商品説明 %>
+    <%# 記事投稿 %>
     <div class="new-items">
       <div class="weight-bold-text">
           投稿カテゴリー
         <span class="indispensable">必須</span>
       </div>
-      <%= f.collection_select(:hoge, [], :hoge, :hoge, {}, {class:"select-box", id:"item-category"}) %>
+      <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"select-box", id:"item-category"}) %>
       <div class="weight-bold-text">
         タイトル
         <span class="indispensable">必須</span>
       </div>
-      <%= f.text_area :hoge, class:"items-text", id:"item-name", placeholder:"（必須 40文字まで)", maxlength:"40" %>
+      <%= f.text_area :title, class:"items-text", id:"item-name", placeholder:"（必須 40文字まで)", maxlength:"40" %>
       <div class="items-explain">
         <div class="weight-bold-text">
           相談内容
           <span class="indispensable">必須</span>
         </div>
-        <%= f.text_area :hoge, class:"items-text", id:"item-info", placeholder:"（必須 1,000文字まで)" ,rows:"7" ,maxlength:"1000" %>
+        <%= f.text_area :article, class:"items-text", id:"item-info", placeholder:"本文（必須 1,000文字まで)内容やキーワードを分かりやすく入力すると、コメントを寄せられやすくなります" ,rows:"7" ,maxlength:"1000" %>
       </div>
     </div>
-    <%# /商品名と商品説明 %>
+    <%# /記事投稿 %>
     <%# 注意書き %>
     <div class="caution">
       <p class="sentence">
