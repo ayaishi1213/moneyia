@@ -5,9 +5,9 @@
   </header>
   <div class="items-sell-main">
     <h2 class="items-sell-title">投稿記事の入力</h2>
-    <%= form_with local: true do |f| %>
+    <%= form_with model:@post, url:posts_path, local: true do |f| %>
 
-    <%# <%= render 'shared/error_messages', model: f.object %> 
+    <%= render 'shared/error_messages', model: f.object %> 
 
     <%# 商品名と商品説明 %>
     <div class="new-items">
