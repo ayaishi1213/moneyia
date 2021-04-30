@@ -15,8 +15,62 @@
     </p>
   </div>
   <%# /画面上部の「人生を変えるフリマアプリ」帯部分  %>
+  
+  <%# FURIMAの特徴 %>
+   <div class='feature-contents'>
+    <h2 class='title'>
+      Mocotyの活用方法
+    </h2>
+    <ul class='feature-lists'>
+      <li class='list'>
+        <%= image_tag "image1.png", class:"list-pict" %>
+        <h3 class='feature-list-text'>
+          お金に関するお悩みを共有できる
+        </h3>
+        <p class='feature-list-description'>
+          スマホひとつで、いつでもどこでも簡単に出品・購入が可能！
+        </p>
+      </li>
+      <li class='list'>
+        <%= image_tag "image2.png", class:"list-pict" %>
+        <h3 class='feature-list-text'>
+          売上金は即日振込みに対応
+        </h3>
+        <p class='feature-list-description'>
+          午前9時までに振込を依頼いただければ、翌日に指定の口座に入金いたします。
+        </p>
+      </li>
+      <li class='list'>
+        <%= image_tag "image3.png", class:"list-pict" %>
+        <h3 class='feature-list-text'>
+          様々な支払いに対応
+        </h3>
+        <p class='feature-list-description'>
+          お支払いは、クレジットカードだけでなく、ポイントや売上金など多彩な方法があります。
+        </p>
+      </li>
+    </ul>
+  </div>
+  <%# /FURIMAの特徴 %>
 
-  <%# FURIMAが選ばれる3つの理由部分 %>
+  <%# 画面中央の「会員数日本一位」帯部分 %>
+  <div class='ad-contents'>
+    <h2 class='ad-title'>
+      会員数日本一位
+    </h2>
+    <p class='ad-explain'>
+      FURIMAは、フリマアプリで最も人気。
+    </p>
+    <p class='ad-explain'>
+      出品・購入回数も業界最多です！
+    </p>
+    <p class='ad-explain'>
+      ほしかったあの商品に出会えるかもしれません。
+    </p>
+  </div>
+  <%# /画面中央の「会員数日本一位」帯部分 %>
+
+    <%# FURIMAが選ばれる3つの理由部分 %>
   <div class='select-reason-contents'>
     <h2 class='title'>
       FURIMAが選ばれる3つの理由
@@ -58,60 +112,6 @@
     </ul>
   </div>
   <%# /FURIMAが選ばれる3つの理由部分 %>
-
-  <%# 画面中央の「会員数日本一位」帯部分 %>
-  <div class='ad-contents'>
-    <h2 class='ad-title'>
-      会員数日本一位
-    </h2>
-    <p class='ad-explain'>
-      FURIMAは、フリマアプリで最も人気。
-    </p>
-    <p class='ad-explain'>
-      出品・購入回数も業界最多です！
-    </p>
-    <p class='ad-explain'>
-      ほしかったあの商品に出会えるかもしれません。
-    </p>
-  </div>
-  <%# /画面中央の「会員数日本一位」帯部分 %>
-
-  <%# FURIMAの特徴 %>
-  <div class='feature-contents'>
-    <h2 class='title'>
-      FURIMAの特徴
-    </h2>
-    <ul class='feature-lists'>
-      <li class='list'>
-        <%= image_tag "image1.png", class:"list-pict" %>
-        <h3 class='feature-list-text'>
-          お金に関するお悩みを共有できる
-        </h3>
-        <p class='feature-list-description'>
-          スマホひとつで、いつでもどこでも簡単に出品・購入が可能！
-        </p>
-      </li>
-      <li class='list'>
-        <%= image_tag "furima-intro05.png", class:"list-pict" %>
-        <h3 class='feature-list-text'>
-          売上金は即日振込みに対応
-        </h3>
-        <p class='feature-list-description'>
-          午前9時までに振込を依頼いただければ、翌日に指定の口座に入金いたします。
-        </p>
-      </li>
-      <li class='list'>
-        <%= image_tag "furima-intro06.png", class:"list-pict" %>
-        <h3 class='feature-list-text'>
-          様々な支払いに対応
-        </h3>
-        <p class='feature-list-description'>
-          お支払いは、クレジットカードだけでなく、ポイントや売上金など多彩な方法があります。
-        </p>
-      </li>
-    </ul>
-  </div>
-  <%# /FURIMAの特徴 %>
 
   <%# 商品一覧 %>
   <div class='item-contents'>
@@ -174,8 +174,17 @@
   </div>
   <%# /商品一覧 %>
 </div>
-<%= link_to('#', class: 'purchase-btn') do %>
-  <span class='purchase-btn-text'>出品する</span>
-  <%= image_tag 'icon_camera.png' , size: '185x50' ,class: "purchase-btn-icon" %>
+<%= link_to(new_post_path, class: 'purchase-btn') do %>
+  <span class='purchase-btn-text'>投稿する</span>
+  <%= image_tag 'btn.png' , size: '185x50' ,class: "purchase-btn-icon" %>
 <% end %>
+<a href="/trial_lessons" target="blank" class="trial-button__2-aYI trial-button__3AyRu">
+  <div class ="body_eug2z">
+    <span>簡単に投稿！</span>
+    "悩みを共有してみよう"
+  </div>
+  </div>
+</a>
 <%= render "shared/footer" %>
+
+

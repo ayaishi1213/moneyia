@@ -3,6 +3,7 @@
 }
 
 .top-page-header {
+  background-color: #D0B0FF;
   width: 100vw;
   padding: 2vh 15vw;
   display: flex;
@@ -63,7 +64,7 @@
 .category-list {
   text-decoration: none;
   margin-right: 3vw;
-  color: #333333;
+  color: #B384FF;
 }
 
 .brand-list {
