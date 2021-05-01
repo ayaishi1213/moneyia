@@ -1,8 +1,8 @@
 .purchase-btn {
   width: 120px;
-  background: #FF5192;
+  background: #C299FF;
   text-align: center;
-  border-radius: 4%;
+  border-radius: 100%;
   bottom: 32px;
   right: 32px;
   position: fixed;
@@ -12,11 +12,11 @@
 .purchase-btn-text {
   color: #fff;
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
   margin-bottom: 5px;
 }
 
 .purchase-btn-icon {
-  width: 60%;
+  width: 55%;
 }

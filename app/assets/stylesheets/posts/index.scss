@@ -17,9 +17,9 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 5vh 15vw;
+  padding: 20vh 15vw;
   color: #fff;
-  /*text-shadow: 0 0 5px rgba(0, 0, 0, 0.9); */
+  text-shadow: 0 0 10px rgba(175, 157, 157, 0.9); 
 }
 
 .service-title {
@@ -27,7 +27,7 @@ a {
 }
 
 .service-explain {
-  font-size: 2.5vh;
+  font-size: 4vh;
   line-height: 40px;
 }
 
@@ -149,7 +149,7 @@ a {
 
 /* //画面中央の「会員数日本一位」帯部分 */
 
-/* FURIMAの特徴 */
+/* Mocotyの活用方法特徴 */
 .feature-contents {
   padding: 5vh 15vw;
 }
@@ -188,7 +188,7 @@ a {
 
 .feature-list-text {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 21px;
   line-height: 50px;
 }
 
@@ -199,7 +199,7 @@ a {
 
 /* //FURIMAの特徴 */
 
-/* 商品一覧 */
+/* 投稿記事一覧 */
 
 .item-contents {
   background-color: #FFF;
@@ -231,36 +231,10 @@ a {
 }
 
 .item-lists>.list {
-  width: 37vh;
+  width: 80vh;
   padding: 1vw;
   background-color: #FFF;
 }
-
-
-.item-img-content {
-  position: relative;
-}
-
-.item-img {
-  width: 33vh;
-  height: 33vh;
-}
-
-.sold-out {
-  position: absolute;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  background-color: crimson;
-  transform: skewY(-10deg);
-}
-
-.sold-out>span {
-  color: #FFF;
-  font-size: 45px;
-  font: bold;
-}
-
 
 .item-info {
   background-color: #FFF;
@@ -269,29 +243,16 @@ a {
 }
 
 .item-name {
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
 
 .item-price {
-  font-size: 1.5vh;
+  font-size: 2vh;
   display: flex;
   justify-content: space-between;
 }
 
 
-.star-btn {
-  display: flex;
-  align-items: center;
-}
 
-.star-icon {
-  height: 2vh;
-  width: 2vh;
-  margin-right: 0.5vw;
-}
-
-.star-count {
-  font-size: 2vh;
-}
 
 /* //商品一覧 */
