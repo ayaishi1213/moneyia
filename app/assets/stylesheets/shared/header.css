@@ -3,7 +3,7 @@
 }
 
 .top-page-header {
-  background-color: #D0B0FF;
+  background-color: #FFF;
   width: 100vw;
   padding: 2vh 15vw;
   display: flex;
@@ -38,7 +38,7 @@
   width: 5vh;
   border: 0;
   cursor: pointer;
-  background-color: #3ccace;
+  background-color: #B384FF;
   padding: 8px;
 }
 
