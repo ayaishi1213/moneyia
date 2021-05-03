@@ -35,7 +35,7 @@
 | ---------------------- | ---------- | ----------------------------- |
 | user                   | references | null: false,foreign_key: true |
 | post                   | references | null: false,foreign_key: true |
-| comment                | text       | null: false                   |
+| text                   | text       | null: false                   |
 
 ## Association
 - belongs_to :user
