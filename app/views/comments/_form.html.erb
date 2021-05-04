@@ -1,0 +1,10 @@
+<%= form_with(model: [post, comment] ) do |form| %>
+  <div class="row"> 
+   <div class="form-grop col-md-10">
+     <%= form.text_area :text, :placeholder => 'コメントしてみましょう！', class:'form-control' %>
+   </div>
+  <div class="actions clo-md-2">
+    <%= form.submit "コメント投稿", class:"btn btn-sm standard-button" %>
+  </div>
+  </div>
+<% end %>

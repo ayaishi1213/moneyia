@@ -1,0 +1,80 @@
+.card-body {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+*, ::after, ::before {
+  box-sizing: block;
+}
+
+div {
+  display: block;
+}
+
+.card {
+  -webkit-box-direction: normal;
+  word-wrap: break-word;
+}
+
+.comment-space {
+  background-color: #f7f7f7;
+}
+
+.standard.button {
+  display: inline-block;
+  font: normal normal 300 1em 'Open Sans';
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  border-radius: 100px;
+  padding: .5em 2em;
+  background-size: 200% 100%;
+}
+
+.comment-content {
+  position: relative;
+	display: inline-block;
+ 	margin: 0.5em 0 0.5em 15px;
+	padding: 7px 10px;
+	min-width: 120px;
+ 	max-width: 100%;
+ 	color: #555;
+	font-size: 16px;
+	background: white;
+  border-radius: 5px;
+}
+
+.comment-content:before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: -19px;
+  border: 8px solid transparent;
+  border-right: 18px solid white;
+  -ms-transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+
+.comment-delete{
+  margin: 0;
+  text-align: right;
+}
+
+.comment-name{
+  margin: 0;
+}
+
+.comment-space{
+  background: #F7F8F9;
+}
+
+.one-comment{
+  margin: 0 0 1em 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+}
