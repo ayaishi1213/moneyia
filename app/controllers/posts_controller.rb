@@ -22,6 +22,8 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     @comment = Comment.new
     @comments = @post.comments
+    # @comment_replies = @post.comment_replies.includes(:user)
+    # @comment_reply = @post.comment_replies.build(user_id: current_user.id) if current_user
   end
 
   def edit
