@@ -3,8 +3,6 @@
 <%# 商品の概要 %>
 <div class="item-show">
   <div class="item-box">
-
-
     <div class="post-explain-box">
       <span><%= "投稿記事" %></span>
     </div>
@@ -30,16 +28,19 @@
     </table>
   <% if user_signed_in? %>
    <% if current_user == @post.user %>
+   <div class="option-btn">
     <%= link_to "投稿記事の編集", edit_post_path, method: :get, class: "post-edit-btn" %>
-    <p class="or-text">or</p>
     <%= link_to "削除", "#", method: :delete, class:"post-destroy" %>
    <% end %>
+   </div>
   <% end %>
 　<%# /投稿の概要 %>
 
   <!--コメントの表示 -->
-  <div>
+  <div class = "comment-card">
+    <div class = "comment-title">
     <h4>コメント</h4>
+    </div>
     <div id="comments_area">
       <!-- 投稿されたコメント一覧を詳細ページに表示する -->
       <%= render partial: 'comments/index', locals: { comments: @comments } %>

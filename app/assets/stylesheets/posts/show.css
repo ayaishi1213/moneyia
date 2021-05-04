@@ -50,31 +50,41 @@
 }
 
 
-.post-edit-btn {
-  text-align: center;
-  background-color: #ea352d;
-  font-size: 24px;
-  font-weight: bold;
-  color: #FFF;
-  margin: 20px 0px;
-  padding: 2vh 10vw;
+.option-btn {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 20px;
 }
 
-.or-text {
-  font-size: 20px;
+.post-edit-btn {
+  text-align: center;
+  font-size: 15px;
+  border-radius: 40px;
+  min-width: 200px;
+  background-color: #FF69A3;
+  color :#fff;
+  border: 2px solid #FF69A3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 1vh 7vw;
 }
 
 .post-destroy {
+  border-radius: 40px;
+  min-width: 200px;
   background-color: lightgray;
   text-align: center;
-  font-size: 24px;
+  font-size: 15px;
   color: black;
-  margin: 20px 0px;
-  padding: 2vh 10vw;
+  margin: 10px 0px;
+  padding: 1vh 7vw;
 }
 
 .post-explain-box {
-  font-size: 18px;
+  font-size: 20px;
   margin: 40px 0px;
   overflow-wrap: anywhere;
 }
@@ -108,54 +118,37 @@
 }
 
 .detail-value-a {
-  width: 80%;
+  width: 60%;
   padding: 20px;
   border: 1px solid #dedede;
   font-size: 14px;
 }
 
 
-.option {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
+
+/* /コメント部分 */
+.comment-title {
+  font-size: 1.5rem;
 }
 
-.favorite-btn {
-  border-radius: 40px;
-  width: 15vw;
-  min-width: 200px;
-  color: rgb(249, 75, 0);
-  border: 2px solid #ffb340;
+
+.comment-card {
+  background-color: #f8f8f8;
+  width: 100vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin-right: 20px;
+  padding: 5vh 0;
 }
 
-.favorite-star-icon {
-  margin-right: 5px;
+.comment-area {
+  width: 200vw;
 }
 
-.report-btn {
-  border-radius: 40px;
-  width: 15vw;
-  min-width: 200px;
-
-  padding: 1vh 0;
-  color: black;
-  border: 2px solid #2d2d2d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.comment-space {
+  background-color: #fff;
+  width: 80vw;
 }
-
-.report-flag-icon {
-  margin-right: 5px;
-}
-
-
-/* /商品の概要 */
 
 .comment-box {
   width: 40vw;
@@ -172,52 +165,34 @@
   resize: none;
 }
 
-.comment-warn {
-  padding: 10px;
-  font-size: 14px;
-  margin: 10px 0px;
-  text-align: left;
+.a {
+  
 }
 
-.comment-btn {
-  line-height: 48px;
-  background-color: #3CCACE;
-  border: 1px solid #3CCACE;
-  color: #fff;
-  width: 50%;
-  min-width: 150px;
-  font-size: 18px;
-  border-radius: 100px;
-  margin-bottom: 2vh;
-}
-
-.comment-flag {
+.standard-button {
+  text-align: center;
+  font-size: 15px;
+  border-radius: 40px;
+  min-width: 200px;
+  background-color: #dedede;
+  color :#000;
+  border: 2px solid #dedede;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 1vh 7vw;
 }
 
-.comment-flag-icon {
-  margin: 10px 5px 0 0;
+.standard-button:hover{
+  color:rgba(255, 255, 255, 1);
+  background-color:#FF69A3;
+  background-position: -100% 100%;
+  border:1px solid #FF69A3;
 }
 
-.links {
-  display: flex;
-  justify-content: space-between;
-  width: 50vw;
 
-}
 
-.change-item-btn {
-  font-size: 30px;
-  text-decoration: none;
-  color: #3CCACE;
-}
 
-.another-item {
-  display: block;
-  margin: 30px 0px 8px;
-  color: #3CCACE;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 23px;
-}
+
+
