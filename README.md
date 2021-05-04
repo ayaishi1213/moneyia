@@ -40,3 +40,16 @@
 ## Association
 - belongs_to :user
 - belongs_to :post
+
+## comment_repliesテーブル
+| Column                 | Type       | Options                       |
+| ---------------------- | ---------- | ----------------------------- |
+| user                   | references | null: false,foreign_key: true |
+| post                   | references | null: false,foreign_key: true |
+| comment                | references | null: false,foreign_key: true |
+| text                   | text       | null: false                   |
+
+## Association
+- belongs_to :user
+- belongs_to :post
+- belongs_to :comment
