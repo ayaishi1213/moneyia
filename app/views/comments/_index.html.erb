@@ -7,9 +7,9 @@
    <div class="card one-comment">
      <div class="card-body comment-space">
     <p class>
-    <%= "#{comment.user.nickname}さん" %>
-    </p>
-    <p>コメント：<%= comment.text %></p>
+    <%= "#{comment.user.nickname}さん" %>📝
+    </p>    
+    <p><%= comment.text %></p>
     <% if comment.user == current_user %>
       <p><%= link_to '削除', post_comment_path(comment.post_id, comment.id), 
       method: :delete, remote: true %></p>   
