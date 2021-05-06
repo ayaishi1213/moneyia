@@ -1,8 +1,6 @@
-<%# cssは記事投稿のものを併用しています %>
-
 <div class="items-sell-contents">
   <header class="items-sell-header">
-    <%= link_to image_tag('logo2.png' , size: '180x100'), "/" %>
+    <%= link_to image_tag('logo2.png' , size: '150x90'), "/" %>
   </header>
   <div class="items-sell-main">
     <h2 class="items-sell-title">投稿記事を入力</h2>
@@ -17,8 +15,7 @@
         <span class="indispensable">必須</span>
       </div>
       <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"select-box", id:"item-category"}) %>
-      <div class="items-explain">
-        <div class="weight-bold-text">
+      <div class="weight-bold-text">
         タイトル
         <span class="indispensable">必須</span>
       </div>
@@ -32,7 +29,6 @@
       </div>
     </div>
     <%# /投稿記事 %>
-
     <%# 注意書き %>
     <div class="caution">
       <p class="sentence">
@@ -55,14 +51,14 @@
   </div>
   <% end %>
 
-  <footer class="items-sell-footer">
-    <ul class="menu">
-      <li><a href="#">プライバシーポリシー</a></li>
-      <li><a href="#">MoCoty利用規約</a></li>
-    </ul>
-    <%= link_to image_tag('logo2.png' , size: '150x90'), "/" %>
-    <p class="inc">
+<footer class="items-sell-footer">
+  <ul class="menu">
+    <li><a href="#">プライバシーポリシー</a></li>
+    <li><a href="#">MoCoty利用規約</a></li>
+  </ul>
+  <%= link_to image_tag('logo2.png' , size: '150x90'), "/" %>
+  <p class="inc">
       ©︎Mocoty,Inc.
-    </p>
-  </footer>
+  </p>
+</footer>
 </div>
