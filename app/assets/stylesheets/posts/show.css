@@ -142,7 +142,8 @@
 }
 
 .comment-area {
-  width: 200vw;
+  width: 100vw;
+  align-items: center;
 }
 
 .comment-space {
@@ -165,8 +166,20 @@
   resize: none;
 }
 
+.row {
+  display: flex;
+}
+
+.form-control {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 
 .standard-button {
+  flex-direction: column;
   text-align: center;
   font-size: 15px;
   border-radius: 40px;
@@ -174,7 +187,6 @@
   background-color: #dedede;
   color :#000;
   border: 2px solid #dedede;
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px 0px;

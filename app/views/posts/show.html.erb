@@ -44,6 +44,8 @@
     <div id="comments_area">
       <!-- 投稿されたコメント一覧を詳細ページに表示する -->
       <%= render partial: 'comments/index', locals: { comments: @comments } %>
+    </div>
+    <div class="comments_form_area">
       <% if user_signed_in? %>
         <!-- コメント入力欄を詳細ページに表示する -->
         <%= render partial: 'comments/form', locals: { comment: @comment, post: @post } %>
