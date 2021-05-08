@@ -6,12 +6,20 @@
 
 .login-red-btn {
   width: 100%;
-  background: #ea352d;
-  border: 1px solid #ea352d;
+  background: #dedede;
+  border: 1px solid #dedede;
   color: #fff;
   line-height: 48px;
   font-size: 14px;
   cursor: pointer;
+  border-radius: 40px;
+}
+
+.login-red-btn:hover{
+  color:rgba(255, 255, 255, 1);
+  background-color:#FF69A3;
+  background-position: -100% 100%;
+  border:1px solid #FF69A3;
 }
 
 .login-flash-message {

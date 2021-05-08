@@ -2,12 +2,12 @@
   width: 100%;
   min-width: 800px;
   height: 100%;
-  background-color:#DCC2FF;
+  background-color:#FFF;
   display: flex;
   justify-content: center;
 }
 
-/* form-wrapは商品購入画面でも使用しています */
+/* form-wrapは投稿画面でも使用 */
 .form-wrap {
   width: 50%;
   background-color: white;
@@ -144,8 +144,8 @@
 
 .register-red-btn {
   width: 100%;
-  background: #ea352d;
-  border: 1px solid #ea352d;
+  background-color: #FF69A3;
+  border: 1px solid #FF69A3;
   color: #fff;
   line-height: 48px;
   font-size: 14px;

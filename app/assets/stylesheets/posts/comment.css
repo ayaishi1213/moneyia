@@ -95,7 +95,7 @@ div {
 
 .comment-space {
   background-color: #fff;
-  width: 80vw;
+  width: 60vw;
 }
 
 .comment-box {
@@ -106,7 +106,7 @@ div {
 }
 
 .comment-text {
-  width: 100%;
+  width: 150%;
   height: 100px;
   padding: 10px;
   border: solid 2px #dedede;
@@ -115,9 +115,6 @@ div {
 
 
 .form-control {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 
@@ -141,5 +138,9 @@ div {
   background-color:#FF69A3;
   background-position: -100% 100%;
   border:1px solid #FF69A3;
+}
+
+.comment-title {
+  padding-bottom: 10px;
 }
 

@@ -6,7 +6,7 @@ a {
   background: #f8f8f8;
 }
 
-/* 画面上部の「人生を変えるフリマアプリ」帯部分 */
+/* 画面上部の帯部分 */
 .title-contents {
   width: 100vw;
   background-image: url('https://www.illust-box.jp/db_img/sozai/00017/171770/20210402132825_60669d69951fa.jpg');
@@ -17,9 +17,9 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 20vh 15vw;
+  padding: 30vh 15vw;
   color: #fff;
-  text-shadow: 0 0 10px rgba(175, 157, 157, 0.9); 
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 
 .service-title {
@@ -31,9 +31,17 @@ a {
   line-height: 40px;
 }
 
-/* //画面上部の「人生を変えるフリマアプリ」帯部分 */
+.top-btn {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
 
-/* FURIMAが選ばれる3つの理由部分 */
+/* //画面上部の帯部分 */
+
+/* Mocotyの活用方法 */
 .select-reason-contents {
   padding: 5vh 15vw;
 }
@@ -104,7 +112,7 @@ a {
   margin-top: 20px;
 }
 
-/* //FURIMAが選ばれる3つの理由部分 */
+/* //MoCotyの活用方法 */
 
 
 /* 画面中央の「会員数日本一位」帯部分*/
@@ -131,20 +139,6 @@ a {
 .ad-explain {
   font-size: 2.5vh;
   line-height: 30px;
-}
-
-.store-btn {
-  display: flex;
-  margin-top: 24px;
-}
-
-.apple-btn {
-  margin-right: 1vw;
-  height: 9vh;
-}
-
-.google-btn {
-  height: 9vh;
 }
 
 /* //画面中央の「会員数日本一位」帯部分 */
