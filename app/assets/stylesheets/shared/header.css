@@ -38,7 +38,7 @@
   width: 5vh;
   border: 0;
   cursor: pointer;
-  background-color: #A52A2A;
+  background-color: #FF69A3;
   padding: 8px;
 }
 
@@ -95,6 +95,13 @@
   padding: 10px;
 }
 
+.user-nickname:hover{
+  color:rgba(255, 255, 255, 1);
+  background-color:#FF69A3;
+  background-position: -100% 100%;
+  border:1px solid #FF69A3;
+}
+
 
 .logout {
   text-decoration: none;
@@ -104,20 +111,41 @@
   padding: 10px;
 }
 
+.logout:hover{
+  color:rgba(255, 255, 255, 1);
+  background-color:#FF69A3;
+  background-position: -100% 100%;
+  border:1px solid #FF69A3;
+}
+
 .login {
   text-decoration: none;
   line-height: 32px;
   margin-right: 3vw;
   color: #333333;
-  background-color: azure;
+  background-color: #fff;
   border-radius: 40px;
   padding: 10px;
+}
+
+.login:hover{
+  color:rgba(255, 255, 255, 1);
+  background-color:#FF69A3;
+  background-position: -100% 100%;
+  border:1px solid #FF69A3;
 }
 
 .sign-up {
   text-decoration: none;
   color: #333333;
-  background-color: azure;
+  background-color: #fff;
   border-radius: 40px;
   padding: 10px;
+}
+
+.sign-up:hover{
+  color:rgba(255, 255, 255, 1);
+  background-color:#FF69A3;
+  background-position: -100% 100%;
+  border:1px solid #FF69A3;
 }
